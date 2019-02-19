@@ -20,11 +20,17 @@ bool parseInt(string sval, int& val);
 
 int main()
 {
+	// loan amount as a string
 	string strLoan; 
-	float lnAmt = -1;
-	string strRate;
+	// loan amount, initialized to -1 to enter the while loop
+	float lnAmt = -1; 
+	// interest rate as a string
+	string strRate; 
+	// interest rate, initialized to -1 to enter the while loop
 	float inRate = -1;
+	// number of years as a string
 	string strYrs; 
+	// number of years, initialized to -1 to enter the while loop
 	int numOfYears = -1;
 
 	// Get loan amount as string to validate input
